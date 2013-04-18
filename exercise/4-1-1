@@ -1,0 +1,3 @@
+ There could be only one statement behind if statement, while there is a
+null statement now. and next the statement is the printf statement.
+The program will always come up with a positive printout. 
