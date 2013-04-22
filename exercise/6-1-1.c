@@ -3,13 +3,13 @@
 int euclid(int a, int b)
 {
   int c;
-  while (a % b != 0) {
-    c = a;
+  while (b != 0) {
+    c = a % b;
     a = b;
-    b = c % b;
+    b = c;
   }
 
-  return b;
+  return a;
 }
 
 int main(void)
